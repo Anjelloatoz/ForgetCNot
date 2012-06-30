@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name = "satButton" parent="@android:style/Widget.Button">
+	    <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/bt_satellite</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name = "mapButton" parent="@android:style/Widget.Button">
+	    <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/bt_map</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name = "soundsButton" parent="@android:style/Widget.Button">
+	    <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/bt_sounds</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name = "congestionButton" parent="@android:style/Widget.Button">
+	    <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/bt_congestion</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+        <style name = "mainButton" parent="@android:style/Widget.Button">
+	    <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/bt_main</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="slider_left_Button" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:shadowColor">#FFFFFFFF</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:textSize">14dip</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@drawable/slider_left_btn</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="slider_right_Button" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:shadowColor">#FFFFFFFF</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:textSize">14dip</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@drawable/slider_right_button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>
