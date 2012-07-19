@@ -14,7 +14,7 @@
         android:layout_height="fill_parent"
         android:enabled="true"
         android:clickable="true"
-        android:apiKey="0BvGia5neQIPyevEaO47uDEa21odiJbj6_6k4kg"
+        android:apiKey="0BvGia5neQIMtiyvpmNSv5a-3KrqVV6L2MCV5gA"
         />
         
         <ImageView
@@ -43,7 +43,7 @@
         	android:paddingBottom="15px"
         	android:textColor="#E01C0B"
         	android:background="@null"
-        	android:text="Map"/>
+        	android:text="XMap"/>
             
             <Button android:id="@+id/zoom_button"
             android:layout_marginLeft="30dip"

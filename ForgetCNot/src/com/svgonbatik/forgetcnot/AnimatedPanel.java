@@ -127,7 +127,7 @@ public class AnimatedPanel extends FrameLayout {
 			    	panel.setVisibility(VISIBLE);
 			    }
 		  });
-		  animation.setDuration(5000);
+		  animation.setDuration(500);
 		  set.addAnimation(animation);
 
 		  LayoutAnimationController controller = new LayoutAnimationController(set, 0.25f);
